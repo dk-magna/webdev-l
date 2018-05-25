@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	background: #ABA08D;
+}
+
+h1{
+	margin-bottom: 15px;
+	color: blacks;
+	text-align: center;
+	font-style: bold;
+}
+.row {
+	width: 100%
+}
+
+p{
+  padding: 20px 10px 20px 10px;
+  width: 95%;
+  
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background: grey;
+  font-family: Helvetica;
+  
+  border:1px solid black;
+  border-spacing: 10px;
+  
+}
+
+@media(min-width: 992px){
+	.col-lg-3 {
+		float: left;
+		
+
+		width: 33.3%;
+		
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.5px){
+	.col-md-12, .col-md-3 {
+		float:left;
+
+		
+		 }
+
+   .col-md-12 {
+      width:50%;
+   }
+	
+	.col-md-3 {
+		width:100%
+		margin:auto;
+	}
+}
+
+@media(max-width: 767.5px){
+	.col-s-3{
+		float:left;
+		width:100%;
+		
+
+	}
+}
+
+.tit {
+	 font-family: "Times New Roman", Times, serif;
+	 font-size: 125%;
+	 padding: 5px 10px 5px 10px;
+	position:absolute;
+	top:0;
+	right:0;
+
+	border-left: 1px solid black;
+	border-bottom:  1px solid black;
+} 
+
+.pe{ background: #FF4500;
+      color: black;
+}
+
+.do{
+	background:	#00FF00;
+	color: black;
+}
+.te{ 
+	background: #ADD8E6;
+	color: black;
+}
+
+#fir{
+	background: #D59191;
+}
+
+#sec{ background: #E296F2;
+
+}
+
+#thi{ background: #EABC6D;
+
+}
